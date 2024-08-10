@@ -1,0 +1,52 @@
+{
+	"layout": {
+		"name": "my custom zoom layout",
+		"direction": "row",
+		"first": {
+			"direction": "column",
+			"first": "DiagnosticSummary!3edblo1",
+			"second": "RosOut!1f38b3d",
+			"splitPercentage": 50
+		},
+		"second": "3D Panel!1my2ydk",
+		"splitPercentage": 25
+	},
+	"savedProps": {
+		"3D Panel!1my2ydk": {
+			"checkedKeys": [
+				"name:Topics",
+				"t:/laser_cloud_sharp",
+				"t:/laser_cloud_flat",
+				"t:/tf_static",
+				"t:/velodyne_cloud_registered",
+				"t:/scan"
+			],
+			"expandedKeys": [],
+			"followTf": "camera_init",
+			"cameraState": {
+				"distance": 9.016225446653664,
+				"perspective": true,
+				"phi": 0.7853981633974483,
+				"targetOffset": [2.4351634129747333, -0.056434417143776366, 0],
+				"thetaOffset": 0,
+				"fovy": 0.7853981633974483,
+				"near": 0.01,
+				"far": 5000
+			},
+			"modifiedNamespaceTopics": [],
+			"pinTopics": true,
+			"settingsByKey": {},
+			"autoSyncCameraState": false,
+			"autoTextBackgroundColor": true
+		}
+	},
+	"globalVariables": {},
+	"userNodes": {},
+	"linkedGlobalVariables": [],
+	"playbackConfig": {
+		"speed": 0.2,
+		"messageOrder": "receiveTime",
+		"timeDisplayMethod": "ROS"
+	},
+	"version": 19
+}

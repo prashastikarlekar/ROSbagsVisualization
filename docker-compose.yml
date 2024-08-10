@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  webviz:
+    image: cruise/webviz
+    ports:
+      - "8080:8080"
+
+  flask-minio-apache-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+      - "9001:9001"
+      - "8081:80"
